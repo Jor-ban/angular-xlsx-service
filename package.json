@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "file-saver": "^2.0.5",
     "xlsx": "^0.18.5"
@@ -39,5 +39,22 @@
     "typescript": "~5.5.2",
     "zone.js": "~0.14.3"
   },
-  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jor-ban/angular-xlsx-service.git"
+  },
+  "keywords": [
+    "angular",
+    "rxjs",
+    "signal",
+    "cache",
+    "state-manager",
+    "state"
+  ],
+  "author": "https://github.com/Jor-ban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jor-ban/angular-xlsx-service/issues"
+  },
+  "homepage": "https://github.com/Jor-ban/angular-xlsx-service#readme"
 }
